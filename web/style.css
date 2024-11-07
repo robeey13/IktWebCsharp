@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(270deg,  #0b1d5b, #192a80);
+    background-size: 400% 400%;
+    animation: gradientAnimation 30s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+h1 {
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar{
+    width: 100%; 
+    background-color: #1138cc;
+    margin: 0;
+}
+
+.text{
+    color: white;
+    font-size: 1.5vw;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover{
+    transform: scale(1.1);
+    color: whitesmoke;
+    transition: transform 0.2s ease, color 0.2s ease;
+    
+}
+
+.bemut{
+    background-color: rgba(104, 133, 239, 0.5);
+    margin: 10px;
+}
+
+
+.elsoKep{
+    width: 40%;
+}
