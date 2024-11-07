@@ -33,7 +33,7 @@ h1 {
 
 .text{
     color: white;
-    font-size: 1.5vw;
+    font-size: 3vw;
 }
 
 .navbar-brand {
@@ -49,10 +49,37 @@ h1 {
 
 .bemut{
     background-color: rgba(104, 133, 239, 0.5);
-    margin: 10px;
 }
 
 
 .elsoKep{
     width: 40%;
+}
+
+.sor{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.sorPc{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
+.pcImg{
+    width: 70%;
+    border-radius: 10px;
+}
+
+#logo{
+    width: 50%;
+    border-radius: 1000px;
+}
+
+.logoDiv{
+    display: flex;
+    justify-content: center;
+
 }
