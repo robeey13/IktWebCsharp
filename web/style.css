@@ -8,9 +8,9 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    background: linear-gradient(270deg,  #0b1d5b, #192a80);
+    background: linear-gradient(270deg,  #0b1d5b, #6885ef);
     background-size: 400% 400%;
-    animation: gradientAnimation 30s ease infinite;
+    animation: gradientAnimation 15s ease infinite;
 }
 
 @keyframes gradientAnimation {
@@ -19,10 +19,9 @@ body {
     100% { background-position: 0% 50%; }
 }
 
-h1 {
-    color: #fff;
-    font-family: Arial, sans-serif;
+h3{
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-variant: small-caps;
 }
 
 .navbar{
@@ -33,7 +32,26 @@ h1 {
 
 .text{
     color: white;
-    font-size: 3vw;
+    font-size: 2.8vw;
+}
+
+.gepCim{
+    font-size: 50px;
+}
+
+.idezet{
+    color: gray;
+    font-style: italic;
+}
+
+.szinText{
+    color: #1138cc;
+    font-family: Arial, sans-serif;
+    word-break: break-all;
+}
+
+.sorkoz{
+    line-height: 35px;
 }
 
 .navbar-brand {
@@ -57,9 +75,7 @@ h1 {
 }
 
 .sor{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
+    padding: 15px;
 }
 
 .sorPc{
@@ -69,8 +85,12 @@ h1 {
 
 
 .pcImg{
+    max-width: 100%;
     width: 70%;
+    max-height: 100%;
     border-radius: 10px;
+    display: block;
+    margin: auto;
 }
 
 #logo{
@@ -81,5 +101,70 @@ h1 {
 .logoDiv{
     display: flex;
     justify-content: center;
+}
+
+.kozep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.btnDiv2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.animated-button {
+    background-color: #6885ef;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+ }
+
+.animated-button:hover {
+    background-color: #476aec;
+    transform: scale(1.1);
+}
+
+.animated-button:active {
+    background-color: #1138cc;
+    transform: scale(0.9);
+}
+
+.smallLogo{
+    width: 5%;
+    height: 5%;
 
 }
+
+.pcCustomize{
+    margin: auto;
+}
+
+.pcName{
+    display: flex;
+    justify-content: center;
+}
+
+.customPC{
+    display: flex;
+    justify-content: center;
+}
+
+.nameForPc{
+    font-weight: bold;
+}
+
+
