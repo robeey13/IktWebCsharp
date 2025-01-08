@@ -47,7 +47,7 @@ h3{
 .szinText{
     color: #1138cc;
     font-family: Arial, sans-serif;
-    word-break: break-all;
+
 }
 
 .sorkoz{
@@ -80,7 +80,7 @@ h3{
 
 .sorPc{
     background-color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 15px;
 }
 
 
@@ -167,4 +167,87 @@ h3{
     font-weight: bold;
 }
 
+.offcanvas{
+    background: linear-gradient(270deg,  #0b1d5b, #6885ef);
+    color: white;
+}
 
+.btn-close{
+    background-color: white;
+}
+
+.customize{
+    background-color: white;
+padding: 10px;
+}
+
+#totalPrice{
+    font-size: 20px;
+
+}
+
+
+.alert {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+  
+
+.search-container {
+    position: relative;
+    text-align: center;
+    width: 300px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0;
+    font-size: 1.2em;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 13%;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+}
+
+.dropdown-content div {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown-content div img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.dropdown-content div:hover {
+    background-color: #ddd;
+}

@@ -9,7 +9,8 @@ let items = [
 function searchFunction() {
     let input = document.getElementById('searchInput').value.toLowerCase();
     let dropdown = document.getElementById('dropdownList');
-    dropdown.innerHTML = ''; // Legördülő lista kiürítése
+    dropdown.innerHTML = '';
+
 
     if (input.length > 0) {
         let filteredItems = items.filter(item => item.name.toLowerCase().includes(input));
@@ -28,7 +29,10 @@ function searchFunction() {
     } else {
         dropdown.style.display = 'none';
     }
+    
 }
+
+
 
 document.addEventListener('click', function(event) {
     if (!event.target.matches('#searchInput')) {
