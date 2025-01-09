@@ -1,11 +1,10 @@
-// A select elemek listája
-const selectElements = ['processor', 'motherboard', 'ram', 'storage', 'gpu', 'psu'];
+const selectElements = ['processor', 'motherboard', 'ram', 'storage', 'gpu', 'psu', 'bundles'];
 
-// Az elemek és az összesített ár megjelenítésére szolgáló HTML elemek
+
 const componentList = document.getElementById('componentList');
 const totalPriceElement = document.getElementById('totalPrice');
 
-// Eseményfigyelő hozzáadása minden select elemhez
+
 selectElements.forEach(id => {
     const select = document.getElementById(id);
     select.addEventListener('change', updateSummary);
@@ -30,7 +29,5 @@ function updateSummary() {
 
     totalPriceElement.textContent = `${total} Ft`;
 }
-
-// Eseményfigyelők hozzáadása az oldal betöltése után az alapértelmezett kiválasztás kezeléséhez
 window.addEventListener('load', updateSummary);
 
