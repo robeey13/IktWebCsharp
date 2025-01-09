@@ -26,3 +26,19 @@ if (toastTrigger) {
     }, false)
   })
 })()
+
+const megye = document.getElementById('validationDefault04').value
+
+document.getElementById('orderForm').addEventListener('submit', function(event) {
+
+    event.preventDefault();
+
+
+    var form = event.target;
+    var valid = form.checkValidity();
+    if (valid) {
+        alert("Sikeresen megrendelve!\n Köszönjük szépen!");
+        window.location.href = 'index.html';
+    }
+});
+
